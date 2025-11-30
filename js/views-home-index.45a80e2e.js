@@ -1,0 +1,5 @@
+(()=>{var o=[{name:"TypeScript Support",description:"Auto-detect and compile .ts/.tsx files",status:"working"},{name:"SCSS Support",description:"Auto-detect and compile .scss/.sass files",status:"working"},{name:"Mixed Projects",description:"Use JS + TS and CSS + SCSS together",status:"working"},{name:"Zero Config",description:"Just use the file extensions",status:"working"}];function i(){let e=document.getElementById("features-container");if(!e){console.warn("Features container not found");return}let t=document.createElement("ul");t.className="feature-list",o.forEach(n=>{let s=document.createElement("li");s.innerHTML=`
+            <span class="icon">${r(n.status)}</span>
+            <strong>${n.name}</strong>: ${n.description}
+        `,t.appendChild(s)}),e.appendChild(t)}function r(e){switch(e){case"working":return"\u2713";case"testing":return"\u26A1";case"planned":return"\u25CB"}}document.addEventListener("DOMContentLoaded",()=>{console.log("[Home/Index] Per-view TypeScript loaded"),i()});})();
+//# sourceMappingURL=views-home-index.%5Bhash%5D.js.map
